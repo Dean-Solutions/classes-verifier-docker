@@ -1,0 +1,6 @@
+[submodule "classes-verifier-be"]
+	path = classes-verifier-be
+	url = https://github.com/Dean-Solutions/classes-verifier-be.git
+[submodule "classes-verifier-fe"]
+	path = classes-verifier-fe
+	url = https://github.com/Dean-Solutions/classes-verifier-fe.git
