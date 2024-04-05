@@ -1,0 +1,23 @@
+version: '3' 
+name: dean-solution-app
+services:
+  dean-fe:
+    image: dean-fe
+    container_name: dean-fe
+    build: E:\WebStormProjects\IO\classes-verifier-fe # pull it form github repo but .env file should be there ask for it
+    ports:
+      - 3000:3000
+    networks: 
+      - dean-net
+
+  dean-be:
+    image: dean-be
+    container_name: dean-be
+    build: https://github.com/Dean-Solutions/classes-verifier-be.git
+    ports:
+      - 8080:8080
+    networks: 
+      - dean-net
+
+networks:
+  dean-net:
