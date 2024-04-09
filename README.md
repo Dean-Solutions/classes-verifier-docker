@@ -6,6 +6,6 @@ cd classes-verifier-docker
 cd classes-verifier-be 
 ./gradlew build 
 cd ..
-docker-compose -f docker-compose.yml
+docker-compose -f docker-compose.yml up
 ```
 
